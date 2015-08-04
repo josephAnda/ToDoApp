@@ -21,6 +21,7 @@ var app = app || {};
 			return this.where({completed: true});
 		},
 
+		// Filter down the list of all todo items that are priorities.
 		priority: function() {
 			return this.where({completed: true});
 		},

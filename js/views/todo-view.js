@@ -71,14 +71,12 @@ var app = app || {};
 
 		// Toggle the `"completed"` state of the model.
 		toggleCompleted: function () {
-			this.model.toggle();
+			this.model.toggleCompleted();
 		},
-
+		// Toggle the "priority" state of the model.
 		togglePriority: function() {
 			this.model.togglePriority();
 		},
-
-
 
 		// Switch this view into `"editing"` mode, displaying the input field.
 		edit: function () {
