@@ -74,6 +74,12 @@ var app = app || {};
 			this.model.toggle();
 		},
 
+		togglePriority: function() {
+			this.model.togglePriority();
+		},
+
+
+
 		// Switch this view into `"editing"` mode, displaying the input field.
 		edit: function () {
 			this.$el.addClass('editing');
