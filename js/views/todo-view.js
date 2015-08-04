@@ -24,7 +24,7 @@ var app = app || {};
 			'keypress .edit': 'updateOnEnter',
 			'keydown .edit': 'revertOnEscape',
 			'blur .edit': 'close',
-			'click .priority-btn': 'edit' //  experimental priority button functionality 
+			'click .priority-btn': 'togglePriority' //  experimental priority button functionality 
 			
 		},
 
